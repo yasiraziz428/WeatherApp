@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: "Courier New", Courier, monospace;
+        background-color: rgb(67, 64, 64);
+        margin: 0 20% 0 20%;
+      }
+      .container {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 10%;
+      }
+      span {
+        font-weight: normal;
+      }
+      h1 {
+        margin: auto 0 auto 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>
+        <%= city %><br />
+        <span>weather</span>
+      </h1>
+      <img width="150" src="<%= url %>" />
+      <h1>
+        <%= temp %>°C <br />
+        <span><%= desc %></span>
+      </h1>
+    </div>
+  </body>
+</html>

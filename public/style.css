@@ -10,11 +10,11 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #43affc;
+  /* background: #43affc; */
 }
 ::selection {
   color: #fff;
-  background: #43affc;
+  /* background: #43affc; */
 }
 .wrapper {
   width: 400px;
@@ -26,7 +26,7 @@ body {
   display: flex;
   font-size: 21px;
   font-weight: 500;
-  color: #43affc;
+  /* color: #43affc; */
   padding: 16px 15px;
   align-items: center;
   border-bottom: 1px solid #ccc;
@@ -61,7 +61,7 @@ header i {
   border: 1px solid #f5c6cb;
 }
 .input-part .info-txt.pending {
-  color: #0c5460;
+  /* color: #0c5460; */
   display: block;
   background: #d1ecf1;
   border: 1px solid #bee5eb;
@@ -80,7 +80,7 @@ header i {
   border: 1px solid #ccc;
 }
 .input-part input:is(:focus, :valid) {
-  border: 2px solid #43affc;
+  /* border: 2px solid #43affc; */
 }
 .input-part input::placeholder {
   color: #bfbfbf;
@@ -105,11 +105,11 @@ header i {
 .input-part button {
   color: #fff;
   cursor: pointer;
-  background: #43affc;
+  background: #353839;
   transition: 0.3s ease;
 }
 .input-part button:hover {
-  background: #1d9ffc;
+  background: #0a0a0a;
 }
 
 .wrapper .weather-part {

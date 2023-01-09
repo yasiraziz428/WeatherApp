@@ -3,14 +3,14 @@
   <head>
     <meta charset="utf-8" />
     <title>Weather App</title>
-    <link rel="stylesheet" href="public/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body style="background-color: rgb(67, 64, 64)">
     <div class="wrapper">
       <header><i class="bx bx-left-arrow-alt"></i>Weather App</header>
       <section class="input-part">
@@ -23,10 +23,10 @@
               spellcheck="false"
               placeholder="Enter city name"
               required
-              focus
+              autofocus
             />
             <div class="separator"></div>
-            <button>GO</button>
+            <button type="submit">GO</button>
           </div>
         </form>
       </section>
