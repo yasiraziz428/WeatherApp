@@ -9,7 +9,7 @@ app.use(express.static("public"));
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.get("/", (req, res) => {
-  res.render("index");
+  res.sendFile(__dirname + "/index.html");
 });
 
 app.post("/", (req, res) => {
